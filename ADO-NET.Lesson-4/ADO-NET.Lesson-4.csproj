@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -7,5 +7,14 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\ADO-NET.Lesson-3\Library.Repositories\Library.Repositories.csproj" />
+  </ItemGroup>
+
+	<!--<ItemGroup>
+		<ProjectReference Include="..\Library.Repositories\Library.Repositories.csproj" />
+		<ProjectReference Include="..\DataReaderToObject\DataReaderToObject.csproj" />
+	</ItemGroup>-->
 
 </Project>
